@@ -285,7 +285,7 @@
   <span class="chip area-lab" data-filter="area" data-val="lab" onclick="setFilter('area','lab',this)">Laboratorio</span>
   <span class="chip area-desp" data-filter="area" data-val="desp" onclick="setFilter('area','desp',this)">Despacho</span>
   <span class="chip area-dep" data-filter="area" data-val="dep" onclick="setFilter('area','dep',this)">Depósito</span>
-  <span class="chip area-pru" data-filter="area" data-val="pru" onclick="setFilter('area','pru',this)">Pruebas con Equipos</span>
+  <span class="chip area-pru" data-filter="area" data-val="pru" onclick="setFilter('area','pru',this)">Homologación y Calidad Técnica</span>
 
   <span style="margin-left:8px" class="filter-label">Estado:</span>
   <span class="chip active" data-filter="estado" data-val="all"      onclick="setFilter('estado','all',this)">Todos</span>
@@ -338,7 +338,7 @@
           <option value="lab">Laboratorio</option>
           <option value="desp">Despacho</option>
           <option value="dep">Depósito</option>
-          <option value="pru">Pruebas con Equipos</option>
+          <option value="pru">Homologación y Calidad Técnica</option>
         </select>
       </div>
       <div class="form-group">
@@ -446,7 +446,7 @@ let filters      = { area: 'all', estado: 'all' };
 let sortKey      = 'id';
 let sortDir      = 1;
 
-const AREA_LABELS  = { campo:'Campo', lab:'Laboratorio', desp:'Despacho', dep:'Depósito', pru:'Pruebas con Equipos' };
+const AREA_LABELS  = { campo:'Campo', lab:'Laboratorio', desp:'Despacho', dep:'Depósito', pru:'Homologación y Calidad Técnica' };
 const ESTADO_LABELS= { verde:'En tiempo', amarillo:'En riesgo', rojo:'Atrasado', gris:'Pendiente', completado:'Completado', descartado:'Descartado' };
 const PRIOR_LABELS = { alta:'Alta', media:'Media', baja:'Baja' };
 const PRIOR_ORDER  = { alta:0, media:1, baja:2 };
