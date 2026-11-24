@@ -437,7 +437,7 @@ function checkAuth() {
 // ─── CONFIG ───
 const URL_KEY    = 'operaciones_api_url';
 const CACHE_KEY  = 'operaciones_cache_v1';
-const FIXED_URL  = ''; // ← pegar acá la URL del Apps Script de Operaciones (termina en /exec)
+const FIXED_URL  = 'https://script.google.com/macros/s/AKfycbwZsufLzCkcJFY4nxUwzOFJrQh8JywPl3o8cygkQKO_hXWPI90UU-8JwrULz6FkC38cag/exec';
 let API_URL      = FIXED_URL || localStorage.getItem(URL_KEY) || '';
 let actions      = [];
 let editId       = null;
